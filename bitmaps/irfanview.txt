@@ -1,0 +1,26 @@
+Irfan view steps for black font on white background
+- convert image to greyscale
+- decrease color depth to 16 colors
+- decrease color depth to 4 colors
+- save png 4c (there should be white background, black and 2 shades of grey)
+
+C1 - black
+- load 4c
+- edit palette - replace all colors to black, leave only black
+- save as pbm c1
+
+C2 - dark grey
+- load 4c
+- edit palette - replace all colors to black, leave only dark grey
+- save as pbm c2
+
+C3 - light grey
+- load 4c
+- edit palette - replace all colors to black, leave only light grey
+- save as pbm c3
+
+C123 - all dark colors
+- load 4c
+- edit palette - replace all dark colors to black, white background
+- negative
+- save as pbm c123
