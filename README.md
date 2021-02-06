@@ -10,7 +10,7 @@ https://youtu.be/C6NsHxKbiVg
 
 ## Features
 - 2 extra colors are used for antialiasing
-- fast RRE fonts ensure better performance and lower memory usage
+- fast RRE fonts ensure better performance and lower memory usage https://github.com/cbm80amiga/RREFont
 
 ## Notes
 - Required: RREFont libraries (available on my GitHub)
